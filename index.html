@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>School</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<header class="head">
+		<p>Students and Teachers count</p>
+	</header>
+
+	<!-- data recording -->
+	<div class="wrapper">
+		<form action="server.php" method="post" class="input">
+			<input type="text" name="studentname" placeholder="Student Name"><br><br>
+			<input type="text" name="grade" placeholder="Grade Study in"><br><br>
+			<input type="text" name="class" placeholder="Class"><br><br>
+			<input type="text" name="sream" placeholder="Studing Stream"><br><br>
+			<input type="text" name="teacher" placeholder="Class Teacher"><br><br>
+			<button type="submit" class="record">Record</button>
+		</form>
+
+		<form action="server.php" method="post" class="sear">
+			<input type="text" name="search" placeholder="Enter your keyword"><br><br>
+			<button type="submit" class="search">Search</button>
+		</form>
+	</div>
+
+	
+</body>
+</html>
